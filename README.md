@@ -1,3 +1,3 @@
 # ed-guru-tailwind-resopnsive
 
-live server : 
+live server : https://ed-guru-salehshakib.netlify.app/
