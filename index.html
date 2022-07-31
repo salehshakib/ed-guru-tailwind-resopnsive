@@ -46,11 +46,9 @@
     <!-- header section -->
     <header>
       <!-- navbar -->
-      <nav
-        class="bg-white border-gray-200 my-5 pt-5 rounded dark:bg-gray-900"
-      >
+      <nav class="bg-white border-gray-200 my-5 pt-5 rounded dark:bg-gray-900">
         <div
-          class="container flex flex-wrap justify-between items-center mx-auto w-\[calc\(full-5rem\)\] lg:w-4/5"
+          class="container flex flex-wrap justify-between items-center mx-auto w-11/12 lg:w-4/5"
         >
           <a href="" class="flex items-center">
             <img
@@ -59,8 +57,8 @@
               alt="Flowbite Logo"
             />
             <span
-              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-              >ED Guru</span
+              class="self-center text-2xl lg:text-3xl font-semibold whitespace-nowrap dark:text-white"
+              >ED <span class="text-blue-700">Guru</span></span
             >
           </a>
           <button
@@ -87,12 +85,12 @@
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul
-              class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 lg:text-lg"
             >
               <li>
                 <a
                   href="#"
-                  class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  class="block py-2 pr-4 pl-3 text-trueGray-500 rounded md:bg-transparent md:p-0 dark:text-white"
                   aria-current="page"
                   >Home</a
                 >
@@ -153,17 +151,22 @@
             >
               <img
                 src="./images/cover/cover-1.png"
-                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 brightness-50"
                 alt="..."
               />
               <div
-                class="carousel-caption flex flex-col items-center justify-center text-center absolute top-1/2 left-1/2 lg:w-full w-3/5 -translate-x-1/2 -translate-y-1/2"
+                class="carousel-caption flex flex-col items-center justify-center text-center absolute top-1/2 left-1/2 lg:w-full w-4/5 -translate-x-1/2 -translate-y-1/2"
               >
                 <div class="text-white">
-                  <h5 class="text-4xl">Get Started Digital Learning</h5>
-                  <p class="py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sit, asperiores!
+                  <h5 class="text-2xl lg:text-4xl font-medium lg:font-bold">
+                    Get Started Digital Learning
+                  </h5>
+                  <p class="py-3 lg:px-20 text-xs lg:text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores commodi dignissimos, aliquid accusamus fuga, hic
+                    debitis eveniet ullam minus, quasi harum cumque asperiores
+                    accusantium iusto adipisci sunt. Accusamus, praesentium
+                    quod.
                   </p>
                 </div>
                 <div>
@@ -178,22 +181,27 @@
             </div>
             <!-- Item 2 -->
             <div
-              class="duration-200 ease-linear absolute inset-0 transition-all transform -translate-x-full z-10"
+              class="hidden duration-200 ease-linear absolute inset-0 transition-all transform"
               data-carousel-item=""
             >
               <img
                 src="./images/cover/cover-2.jpg"
-                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 brightness-50"
                 alt="..."
               />
               <div
-                class="carousel-caption flex flex-col items-center justify-center text-center absolute top-1/2 left-1/2 lg:w-full w-3/5 -translate-x-1/2 -translate-y-1/2"
+                class="carousel-caption flex flex-col items-center justify-center text-center absolute top-1/2 left-1/2 lg:w-full w-4/5 -translate-x-1/2 -translate-y-1/2"
               >
                 <div class="text-white">
-                  <h5 class="text-4xl">Get Started Digital Learning</h5>
-                  <p class="py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sit, asperiores!
+                  <h5 class="text-2xl lg:text-4xl font-medium lg:font-bold">
+                    Get Started Digital Learning
+                  </h5>
+                  <p class="py-3 lg:px-20 text-xs lg:text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores commodi dignissimos, aliquid accusamus fuga, hic
+                    debitis eveniet ullam minus, quasi harum cumque asperiores
+                    accusantium iusto adipisci sunt. Accusamus, praesentium
+                    quod.
                   </p>
                 </div>
                 <div>
@@ -208,22 +216,27 @@
             </div>
             <!-- Item 3 -->
             <div
-              class="duration-200 ease-linear absolute inset-0 transition-all transform translate-x-0 z-20"
-              data-carousel-item="active"
+              class="hidden duration-200 ease-linear absolute inset-0 transition-all transform"
+              data-carousel-item=""
             >
               <img
                 src="./images/cover/cover-3.jpg"
-                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 brightness-50"
                 alt="..."
               />
               <div
-                class="carousel-caption flex flex-col items-center justify-center text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:w-full w-3/5"
+                class="carousel-caption flex flex-col items-center justify-center text-center absolute top-1/2 left-1/2 lg:w-full w-4/5 -translate-x-1/2 -translate-y-1/2"
               >
                 <div class="text-white">
-                  <h5 class="text-4xl">Get Started Digital Learning</h5>
-                  <p class="py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sit, asperiores!
+                  <h5 class="text-2xl lg:text-4xl font-medium lg:font-bold">
+                    Get Started Digital Learning
+                  </h5>
+                  <p class="py-3 lg:px-20 text-xs lg:text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores commodi dignissimos, aliquid accusamus fuga, hic
+                    debitis eveniet ullam minus, quasi harum cumque asperiores
+                    accusantium iusto adipisci sunt. Accusamus, praesentium
+                    quod.
                   </p>
                 </div>
                 <div>
@@ -296,12 +309,20 @@
 
     <main>
       <section id="courses">
-        <div></div>
-        <div class="container w-4/5 my-20 mx-auto">
+        <div class="container w-4/5 my-10 lg:my-20 mx-auto">
+          <div class="mb-10 lg:mb-20 text-center">
+            <h1 class="text-xl md:text-3xl lg:text-4xl font-bold">
+              Discover Our Popular Courses
+            </h1>
+            <p class="text-gray-500 py-3">
+              It is a long established fact that a will be distracted by the
+              readable content of a page when looking at its layout.
+            </p>
+          </div>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <a
               href="#"
-              class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-4/5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               <img
                 class="object-cover w-full h-56 xl:h-auto lg:h-60 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
@@ -322,7 +343,7 @@
             </a>
             <a
               href="#"
-              class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-4/5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               <img
                 class="object-cover w-full h-56 xl:h-auto lg:h-60 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
@@ -343,7 +364,7 @@
             </a>
             <a
               href="#"
-              class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-4/5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             >
               <img
                 class="object-cover w-full h-56 xl:h-auto lg:h-60 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
@@ -364,7 +385,7 @@
             </a>
             <a
               href="#"
-              class="lg:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-4/5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden"
+              class="lg:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden"
             >
               <img
                 class="object-cover w-full h-56 xl:h-auto lg:h-60 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
@@ -385,7 +406,7 @@
             </a>
             <a
               href="#"
-              class="lg:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-4/5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden"
+              class="lg:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden"
             >
               <img
                 class="object-cover w-full h-56 xl:h-auto lg:h-60 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
@@ -406,7 +427,7 @@
             </a>
             <a
               href="#"
-              class="lg:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-4/5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden"
+              class="lg:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row lg:w-full md:mx-auto md:w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden"
             >
               <img
                 class="object-cover w-full h-56 xl:h-auto lg:h-60 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
@@ -426,7 +447,55 @@
               </div>
             </a>
           </div>
+
+          <div class="my-10 w-max mx-auto block lg:hidden">
+            <button
+              type="button"
+              class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            >
+              See More Courses
+            </button>
+          </div>
         </div>
+      </section>
+
+      <section id="explore-us">
+        <div class="container w-4/5 mx-auto flex flex-col sm:flex-row">
+          <div class="w-full lg:w-2/5">
+            <img src="./images/working.png" alt="" class="object-cover h-full w-full" />
+          </div>
+          <div class="w-full lg:w-3/5 px-3 lg:p-10">
+            <h1>Explore The elearning Institute</h1>
+            <p class="my-10">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+              necessitatibus voluptate distinctio sint reiciendis esse est earum
+              doloribus veritatis obcaecati exercitationem voluptas eos vel,
+              facere sequi in quae quas soluta ipsa nesciunt id cumque eligendi.
+            </p>
+            <p>
+              Nihil, amet mollitia quisquam cupiditate sequi nisi suscipit
+              consequuntur atque explicabo perspiciatis qui debitis facilis.
+            </p>
+
+            <div class="flex justify-between my-10">
+              <div>
+                <h1>3.2K+</h1>
+                <p>Online Course</p>
+              </div>
+              <div>
+                <h1>600+</h1>
+                <p>Expert member</p>
+              </div>
+              <div>
+                <h1>1K+</h1>
+                <p>Rating & Review</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="register">
+        
       </section>
     </main>
 
