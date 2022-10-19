@@ -1,7 +1,7 @@
 
 # Ed Guru
 
-A basic Education Landing Page
+A basic Educational Landing Page
 
 ## Live Server
 
